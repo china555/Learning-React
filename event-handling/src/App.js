@@ -4,10 +4,13 @@ import { Counter } from "./components/Counter";
 import { Greet } from "./components/Greet";
 import { FunctionClick } from "./components/FunctionClick";
 import EventBind from "./components/EventBind";
+import { ParentComponent } from "./components/ParentComponent";
+
 function App() {
   return (
     <div className="App">
-      <EventBind />
+      <ParentComponent />
+      {/* <EventBind /> */}
       {/* <Message />
       <Counter {...{ addValue: 9, addValue2: 2 }} />
       <Greet {...{ name: "Diana", heroName: "Wonder Women" }} />
