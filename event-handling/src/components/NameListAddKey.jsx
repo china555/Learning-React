@@ -5,8 +5,8 @@ export const NameListAddKey = (props) => {
     { id: 2, name: "Clark", age: 25, skill: "Angular" },
     { id: 3, name: "Diana", age: 28, skill: "Vue" },
   ];
-  const personList = persons.map((person) => {
-    return <Person key={person.id} person={person} />;
+  const personList = persons.map((person, index) => {
+    return <Person key={index} person={person} index={index} />;
   });
   return <div>{personList}</div>;
 };
