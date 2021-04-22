@@ -5,11 +5,12 @@ import { Greet } from "./components/Greet";
 import { FunctionClick } from "./components/FunctionClick";
 import EventBind from "./components/EventBind";
 import { ParentComponent } from "./components/ParentComponent";
-
+import { UserGreeting } from "./components/UserGreeting";
 function App() {
   return (
     <div className="App">
-      <ParentComponent />
+      <UserGreeting />
+      {/* <ParentComponent /> */}
       {/* <EventBind /> */}
       {/* <Message />
       <Counter {...{ addValue: 9, addValue2: 2 }} />
