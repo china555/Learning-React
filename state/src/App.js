@@ -9,6 +9,7 @@ function App() {
       <Counter {...{ addValue: 9, addValue2: 2 }} />
       <Greet {...{ name: "Diana", heroName: "Wonder Women" }} />
       <Greet {...{ name: "Bruce", heroName: "Batman" }} />
+
     </div>
   );
 }
